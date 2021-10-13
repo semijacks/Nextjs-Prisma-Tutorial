@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "migrate:postgres": "dotenv -e .env.local -- npx prisma db push ./prisma/schema.prisma"
+    "start": "next start"
   },
   "dependencies": {
     "@apollo/client": "^3.4.16",
